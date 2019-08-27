@@ -1,0 +1,6 @@
+<h3> welcome {{apptitle}}</h3>
+
+<app-mycomp></app-mycomp>
+<app-usercomp [isActive]="myactive"></app-usercomp>
+
+<button (click)="callme($event)" class="btn btn-primary">call app</button>
